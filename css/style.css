@@ -6,6 +6,7 @@ Common part
 body {
   font-family: "Source Sans Pro", sans-serif;
   background-color: white;
+  margin: 0;
 }
 /*-- header part ----*/
 .influncer {
@@ -101,8 +102,8 @@ body {
   background-image: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   width: 329px;
-  border-radius: 5px;
-  padding: 17px 14px;
+  border-radius: 10px;
+  padding: 17px 1px;
 }
 .collection > img {
   width: 300px;
@@ -135,13 +136,54 @@ body {
 }
 #see-more {
   background-color: white;
-  color: #e02c6dde;
+  color: #e02c6ed5;
   border: white;
-  align-self: right;
+  float: right;
+  margin-top: 50px;
+  margin-right: 82px;
 }
 #see-more:hover {
-  background-color: #aaaaaa;
+  background-color: white;
+  color: #e02c6ed5;
   border: white;
   border-radius: 5px;
   font-size: 17px;
+}
+/*-- special section styles  ----*/
+#special-section {
+  margin: 156px 165px 100px 165px;
+}
+.special {
+  display: flex;
+  column-gap: 50px;
+}
+/*-- footer styles ----*/
+footer {
+  background-color: #0a0826;
+  height: 239px;
+}
+.bottom {
+  color: white;
+  display: block;
+  text-align: center;
+  padding-top: 50px;
+}
+.bottom > h3 {
+  font-size: 31px;
+}
+.bottom > h3,
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.bottom > ul > li {
+  list-style: none;
+  height: 32px;
+  width: 32px;
+}
+.bottom > ul {
+  display: flex;
+  column-gap: 16px;
+  justify-content: center;
+  padding: 0;
 }
