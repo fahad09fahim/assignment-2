@@ -198,6 +198,9 @@ Media queries
  -------*/
 /*-- mobile device ----*/
 @media only screen and (max-width: 688px) {
+  section {
+    width: 100%;
+  }
   .menu-bar {
     display: none;
   }
@@ -232,5 +235,22 @@ Media queries
   }
   .special-para {
     display: none;
+  }
+}
+/*---------- tablet device --------- */
+@media only screen and (min-width: 689px) and (max-width: 992px);
+ {
+  section {
+    width: 100%;
+  }
+  .influncer {
+    padding-left: 142px;
+  }
+  .journey-photo {
+    flex-direction: column;
+  }
+  .collections {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0;
   }
 }
