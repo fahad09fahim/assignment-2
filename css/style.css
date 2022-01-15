@@ -1,0 +1,118 @@
+/* font styles */
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap");
+/*----- 
+Common part
+------- */
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: white;
+}
+/*-- header part ----*/
+.influncer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 120px;
+  padding-top: 40px;
+}
+.influncer h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #3a3a3a;
+}
+.influncer ul {
+  display: flex;
+  column-gap: 1em;
+}
+.influncer ul li {
+  list-style: none;
+}
+.influncer a {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+.influncer a:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+.fas.h-h:hover {
+  background-color: black;
+  color: white;
+  border: 2px solid white;
+  border-radius: 20px;
+  padding: 5px 15px;
+}
+/*-- first section styles ----*/
+.journey-photo {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.start-journey > h3 {
+  font-size: 27px;
+  font-weight: bold;
+  color: #3a3a3a;
+}
+.start-journey > p {
+  font-size: 15px;
+}
+#pre-book {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background-color: #242b2e;
+  color: white;
+  border-radius: 41px;
+  padding: 10px 24px;
+  font-size: 12x;
+}
+#pre-book:hover {
+  background-color: #252929;
+  color: #51e1ed;
+  font-size: 14px;
+  padding: 15px 29px;
+}
+/*-- logos style  ----*/
+.logos {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 69px 165px 0px 165px;
+}
+/*-- Popular Collection styles ----*/
+.section3-title {
+  font-size: 2em;
+  margin-top: 100px;
+  text-align: center;
+}
+.collections {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  justify-items: center;
+  grid-column-gap: 30px;
+  grid-row-gap: 30px;
+}
+.collection {
+  background-image: #ffffff;
+  box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+  width: 329px;
+}
+.collection > img {
+  width: 300px;
+  height: 256px;
+  border-radius: 5px;
+}
+#see-more {
+  background-color: white;
+  color: #e02c6dde;
+  border: white;
+  align-self: right;
+}
+#see-more:hover {
+  background-color: #aaaaaa;
+  border: white;
+  border-radius: 5px;
+  font-size: 17px;
+}
