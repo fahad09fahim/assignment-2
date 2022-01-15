@@ -20,7 +20,7 @@ body {
   font-weight: 700;
   color: #3a3a3a;
 }
-.influncer ul {
+.menu-bar {
   display: flex;
   column-gap: 1em;
 }
@@ -191,4 +191,46 @@ p {
   column-gap: 16px;
   justify-content: center;
   padding: 0;
+}
+
+/*------ 
+Media queries
+ -------*/
+/*-- mobile device ----*/
+@media only screen and (max-width: 688px) {
+  .menu-bar {
+    display: none;
+  }
+  .influncer {
+    margin: 0 73px;
+  }
+  .journey-photo {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 10px;
+  }
+  .logos {
+    flex-wrap: wrap;
+    margin: 35px 46px 0px 28px;
+  }
+  .collections {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 0;
+  }
+  #see-more {
+    margin-right: 140px;
+  }
+  .special {
+    flex-wrap: wrap;
+  }
+  #special-section {
+    margin: 16px 20px;
+    padding-left: 17px;
+  }
+  .special-title {
+    padding-left: 88px;
+  }
+  .special-para {
+    display: none;
+  }
 }
