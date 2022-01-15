@@ -52,7 +52,7 @@ body {
   justify-content: space-around;
 }
 .start-journey > h3 {
-  font-size: 27px;
+  font-size: 34px;
   font-weight: bold;
   color: #3a3a3a;
 }
@@ -63,15 +63,17 @@ body {
   display: flex;
   align-items: center;
   gap: 8px;
-  background-color: #242b2e;
+  background-color: #e02c6d;
   color: white;
+  border: 0px solid #e02c6d;
+
   border-radius: 41px;
   padding: 10px 24px;
   font-size: 12x;
 }
 #pre-book:hover {
-  background-color: #252929;
-  color: #51e1ed;
+  background-color: #e02c6d;
+  color: #ffffff;
   font-size: 14px;
   padding: 15px 29px;
 }
@@ -93,16 +95,43 @@ body {
   justify-items: center;
   grid-column-gap: 30px;
   grid-row-gap: 30px;
+  margin: 0px 80px;
 }
 .collection {
   background-image: #ffffff;
   box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
   width: 329px;
+  border-radius: 5px;
+  padding: 17px 14px;
 }
 .collection > img {
   width: 300px;
   height: 256px;
   border-radius: 5px;
+}
+.product-image {
+  text-align: center;
+}
+.product-details {
+  padding: 0px 15px;
+}
+.product-title {
+  font-size: 25px;
+}
+.product-price {
+  font-size: 23px;
+  font-weight: 400;
+}
+.fa-star.filled {
+  color: #f4be2c;
+}
+.fa-star-half-alt.empty {
+  color: #f4be2c;
+}
+.rating-detail {
+  color: #787885;
+  font-size: 14px;
+  font-weight: 700;
 }
 #see-more {
   background-color: white;
