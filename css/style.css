@@ -60,25 +60,30 @@ body {
 .start-journey > p {
   font-size: 15px;
 }
-#pre-book {
-  display: flex;
-  align-items: center;
-  gap: 8px;
+.pre-book {
+  padding: 10px 15px;
+  font-size: 12px;
+  width: 121px;
+  border-radius: 30px;
+  transition: width 5s;
+}
+#btn {
+  padding: 10px 15px;
+  font-size: 12px;
+  width: 121px;
+  border-radius: 30px;
+  background-color: #e02c6ede;
+  color: #020202;
+  transition-timing-function: ease-in-out;
+}
+.pre-book:hover {
   background-color: #e02c6d;
   color: white;
-  border: 0px solid #e02c6d;
-
-  border-radius: 41px;
-  padding: 10px 24px;
-  font-size: 12x;
-}
-#pre-book:hover {
-  background-color: #e02c6d;
-  color: #ffffff;
-  font-size: 14px;
-  padding: 15px 29px;
+  font-size: 16px;
+  width: 150px;
 }
 /*-- logos style  ----*/
+
 .logos {
   display: flex;
   justify-content: space-evenly;
